@@ -1,0 +1,185 @@
+.body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow-x: hidden;
+
+}
+
+.a1{
+color: darkblue;
+font-size: 19px;
+position: absolute;
+left: 5%;
+}
+.a2{
+color:blue;
+position: absolute;
+  right: 8%;
+
+}
+.nav-menu{
+position: sticky;
+background-color: white;
+padding-top: 2%;
+padding-bottom: 4%;
+z-index: 100;
+
+top: 0; 
+}
+.b1 {
+width: 1350px;
+height: 615px; 
+background-image: url('gab.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+.b2 {
+position: absolute;
+top: 70px;
+bottom: 0px;
+background: rgba(0, 0, 0, 0.4); 
+color: white;
+width: 100%;
+height: 84%;
+font-size: 27px;
+padding: 232px;
+text-align: left;
+}
+.red-line,.r-line {
+display: inline-block;
+width: 100px;
+height: 1px;
+background-color: red;
+vertical-align: middle;
+margin-right: 10px;
+}
+.c1{
+position: absolute;
+left: 5%;
+overflow-x: hidden;
+}
+.f {
+    display: flex;
+    justify-content: space-between;
+}
+.f1{
+width: 45%;
+
+}
+.f2{
+width: 45%;
+
+}
+.f3{
+width: 95px;
+    height: 40px;
+    background-color: white;
+border: 1px solid red;
+color: red;
+text-align: center;
+padding-top: 4.5px;
+    }
+
+
+
+.g{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr auto; /* Divide the grid into 2 rows, with the first row taking up 1 fraction of the available space, and the second row automatically adjusting its height */
+    grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid with equal width */
+    height: 50vh;
+    width: 85vh; /* Make the grid take up the entire viewport height */
+
+}
+
+.top {
+    background-color: white;
+    grid-column: 1 / 3;
+    height: 30vh;
+    width: 80vh; /* Span the top section across both columns */
+    margin-bottom: 25px;
+}
+
+.bottom-left {
+    background-color: white;
+    padding: 20px;
+    height: 20vh;
+    width: 36vh;
+}
+
+.bottom-right {
+    background-color: white;
+    padding: 20px;
+    height: 20vh;
+    width: 38vh;
+}
+
+
+
+
+
+.foot {
+background-color: rgb(5, 5, 34);
+width: 100%;
+overflow-x: hidden;
+left: 5px;
+
+}
+
+.aa {
+position: relative;
+width: 180px;
+left: 620px;
+top: 80px;
+color: white;
+}
+
+.bb {
+position: relative;
+left:30px;
+}
+.cc {
+color: white;
+position: relative;
+left: 40px;
+top: -140px;
+padding: 30px;
+padding-right: 20px;
+margin: 20px;
+border-style: solid;
+border-top-color: orangered;
+border-bottom-color:black ;
+border-right-color:black ;
+border-left-color:black ;
+width: 400px;
+background-color: black;
+
+
+}
+
+.dd {
+position: relative;
+left: 30px;
+
+}
+.ee {
+position: relative;
+left: 300px;
+width: 490px;
+color: white;
+font-size: 15px;
+}
+.ff {
+position: relative;
+left: 60px;
+top: -52px;
+
+}
+.gg {
+position: relative;
+left: 100px;
+}

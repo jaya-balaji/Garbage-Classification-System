@@ -1,1 +1,1 @@
-# Garbage-Classification-System
+# Garbage-Classifcation-using-Deep-Learning
